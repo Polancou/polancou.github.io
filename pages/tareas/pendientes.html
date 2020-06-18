@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Horas Extras - Tareas Pendientes</title>    <link href="../../css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <title>Horas Extras - Tareas por autorizar</title>    <link href="../../css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
           rel="stylesheet">
     <link href="../../css/app.css" rel="stylesheet">
@@ -43,8 +43,8 @@
             </a>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="../../pages/tareas/pendientes.html">Pendientes</a>
-                    <a class="collapse-item" href="../../pages/tareas/completadas.html">Completadas</a>
+                    <a class="collapse-item" href="../../pages/tareas/pendientes.html">Por Autorizar</a>
+                    <a class="collapse-item" href="../../pages/tareas/aprobadas.html">Autorizadas</a>
                 </div>
             </div>
         </li>
@@ -64,6 +64,20 @@
             </div>
         </li>
 
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities2"
+               aria-expanded="true" aria-controls="collapseUtilities">
+                <i class="fas fa-fw fa-user-friends text-light"></i>
+                <span>Usuarios</span>
+            </a>
+            <div id="collapseUtilities2" class="collapse" aria-labelledby="headingUtilities"
+                 data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <a class="collapse-item" href="../../pages/users/usuarios.html">Lista de usuarios</a>
+                </div>
+            </div>
+        </li>
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
@@ -82,7 +96,7 @@
         <div id="content">
             <!-- Topbar -->
             <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                <h3>Tareas Pendientes</h3>
+                <h3>Tareas por autorizar</h3>
                 <ul class="navbar-nav ml-auto">
                     <!-- Nav Item - User Information -->
                     <li class="nav-item dropdown no-arrow">
@@ -109,7 +123,7 @@
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Listado de tareas pendientes</h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Listado de tareas pendientes por aprobar</h6>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -124,16 +138,6 @@
                                     <th></th>
                                 </tr>
                                 </thead>
-                                <tfoot>
-                                <tr>
-                                    <th>Actividad</th>
-                                    <th>Empleado</th>
-                                    <th>Alimentos</th>
-                                    <th>Inicio</th>
-                                    <th>Fin</th>
-                                    <th></th>
-                                </tr>
-                                </tfoot>
                                 <tbody>
                                 <tr>
                                     <td>Nombre Tarea</td>
